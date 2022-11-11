@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Gentium/static/css/main.7f7e48cb.css",
-    "main.js": "/Gentium/static/js/main.e9a67417.js",
+    "main.css": "/Gentium/static/css/main.566f10a8.css",
+    "main.js": "/Gentium/static/js/main.b564bfb2.js",
     "static/media/AvantGarde-Bold.woff2": "/Gentium/static/media/AvantGarde-Bold.94ce04914d60fd88be59.woff2",
     "index.html": "/Gentium/index.html",
-    "main.7f7e48cb.css.map": "/Gentium/static/css/main.7f7e48cb.css.map",
-    "main.e9a67417.js.map": "/Gentium/static/js/main.e9a67417.js.map"
+    "main.566f10a8.css.map": "/Gentium/static/css/main.566f10a8.css.map",
+    "main.b564bfb2.js.map": "/Gentium/static/js/main.b564bfb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f7e48cb.css",
-    "static/js/main.e9a67417.js"
+    "static/css/main.566f10a8.css",
+    "static/js/main.b564bfb2.js"
   ]
 }
