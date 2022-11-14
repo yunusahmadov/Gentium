@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
-    scroll-behavior:smooth
+    /* scroll-behavior:smooth */
 }
 a{
     text-decoration: none;
@@ -111,7 +111,7 @@ label{
     left: 0;
     width: 20px;
 }
-/* .underline{
+.underline{
     width: 0px;
     background-color: #e9204f;
     position: absolute;
@@ -119,11 +119,19 @@ label{
     bottom: -5px;
     transition: .3s;
 }
+
 .lli:hover .underline{
     left: 0;
     width: 20px;
-} */
-
+}
+.active .underline{
+    width: 20px;
+    background-color: #e9204f;
+    position: absolute;
+    height: 2px;
+    bottom: -5px;
+    transition: .3s;
+}
 
 .header-main {
     max-width: 1250px;

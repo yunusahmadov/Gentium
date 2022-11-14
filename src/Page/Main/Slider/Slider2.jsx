@@ -37,6 +37,10 @@ export class Slider2 extends Component {
             spaceBetween: 0,
           },
           "@1.00": {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          "@1.25": {
             slidesPerView: 3,
             spaceBetween: 10,
           },

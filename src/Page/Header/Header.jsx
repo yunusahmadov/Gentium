@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-scroll'
 import HeaderCard from './HeaderCard'
 
 export class Header extends Component {
@@ -14,9 +15,7 @@ export class Header extends Component {
         </div>
         <div className="header-right">
             <label htmlFor="toggle">
-            <span className='cart'> 
-            <div className="palka"></div>
-                </span>
+                &#9776;
             </label>
             <input type="checkbox" id="toggle" />
             <nav> 
@@ -25,28 +24,41 @@ export class Header extends Component {
             <input type="checkbox" id="toggle" />
 
                         <li className='lli home'>
-                            <a href="#home">Home</a>
-                            {/* <div className='underline' ></div> */}
+                            <Link spy={true} smooth={true} to="home" activeClass="active">Home 
+                            <div className='underline' ></div>
+                            </Link>
+                            
                         </li>
                         <li className='lli services'>
-                            <a href="#service">Services</a>
-                            {/* <div className='underline' ></div> */}
+                            <Link spy={true} smooth={true} to="service" activeClass="active">Services
+                            <div className='underline' ></div>
+                            </Link>
                         </li>
                         <li className='lli works'>
-                            <a href="#works">Works</a>
-                
+                            <Link spy={true} smooth={true} to="works" activeClass="active">Works
+                            <div className='underline' ></div>
+                            </Link>   
                         </li>
                         <li className='lli about'>
-                        <a href="#about">About</a>
+                        <Link spy={true} smooth={true} to="about" activeClass="active">About
+                            <div className='underline' ></div>
+                        </Link>
                         </li>
                         <li className='lli client'>
-                            <a href="#client">Client</a>
+                            <Link spy={true} smooth={true} to="client" activeClass="active">Client
+                            <div className='underline' ></div>
+                        </Link>
                         </li>
                         <li className='lli blog'>
-                            <a href="#blog">Blog</a>
+                            <Link spy={true} smooth={true} to="blog" activeClass="active">Blog
+                            <div className='underline' ></div>
+                        </Link>
                         </li>
                         <li className='lli contact'>
-                            <a href="#contact">Contact</a>
+                            {/* <a href="#contact">Contact</a> */}
+                            <Link spy={true} smooth={true} to="contact" activeClass="active">Contact
+                            <div className='underline' ></div>
+                        </Link>
                         </li>
                         <li>
                         <i class="fa-solid fa-magnifying-glass"></i>
