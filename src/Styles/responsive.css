@@ -73,9 +73,6 @@ header{
         top: 50px;
         right: 50px;
     }
-    nav{
-   
-    }
     .header-right {
         display: flex;
         justify-content: center;
@@ -88,58 +85,18 @@ header{
         font-size: 100%;
         gap: 30px;
         position: absolute;
-        right: -100%;
+        left: -100%;
         top: 0;
         transition: 1s;
         background-color: black;
         height: 100vh;
-        width: 100%;
+        width: 50%;
         justify-content: center;
         align-items: center;  
         opacity: 0;
     }
-    .cart{
-        position: relative;
-        transition: 1s;
-    }
-    .palka{
-        width: 20px;
-        background-color: white;
-        height: 2px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transition: 1s;
-    }
-    .palka::before{
-        content:'';
-        width: 20px;
-        background-color: white;
-        height: 2px;
-        position: absolute;
-        top:7px;
-        left: 0px;
-        z-index: 32;
-        transition: 1s;
-    }
-    .palka::after{
-        content:'';
-        width: 20px;
-        background-color: white;
-        height: 2px;
-        position: absolute;
-        z-index: 234;
-        bottom:7px;
-        left: 0px;
-        transform:rotate('');
-        transition: 1s;
-    }
-    .cart{
-        height: 40px;
-        width: 40px;
-    }
     #toggle:checked + nav ul{
-    right:0%;
+    left:0%;
     top:0;
     opacity: 1;
     }
